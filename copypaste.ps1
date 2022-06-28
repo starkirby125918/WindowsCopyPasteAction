@@ -1,1 +1,1 @@
-Copy-Item -C:\Users\80674\Documents\actions-runner\_work\typecho\typecho -Destination Z:\typecho
+Copy-Item -Path $1 -Destination $2 -Force -Recurse
