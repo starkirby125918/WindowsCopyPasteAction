@@ -1,0 +1,17 @@
+name: 'Copy Directory'
+description: 'Copy local directories'
+inputs:
+  source:
+    description: 'Source path'
+    required: true
+  target:
+    description: 'Target path'
+    required: true
+runs: |
+    .\copypaste.ps1  
+  args: 
+    - ${{inputs.source}}
+    - ${{inputs.target}}
+branding:
+  icon: 'copy'
+  color: 'green'
