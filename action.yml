@@ -14,3 +14,4 @@ runs:
     - ${{inputs.target}}
   steps:
     - run: ${{ github.action_path }}/copypaste.ps1
+      shell: bash
