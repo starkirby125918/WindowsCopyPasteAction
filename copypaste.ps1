@@ -1,0 +1,1 @@
+Copy-Item -C:\Users\80674\Documents\actions-runner\_work\typecho\typecho -Destination Z:\typecho
