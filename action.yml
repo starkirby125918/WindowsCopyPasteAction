@@ -8,10 +8,7 @@ inputs:
     description: 'Target path'
     required: true
 runs: |
-    .\copypaste.ps1  
-  args: 
-    - ${{inputs.source}}
-    - ${{inputs.target}}
-branding:
-  icon: 'copy'
-  color: 'green'
+  .\copypaste.ps1  
+    args: 
+      - ${{inputs.source}}
+      - ${{inputs.target}}
