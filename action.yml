@@ -7,7 +7,10 @@ inputs:
   target:
     description: 'Target path'
     required: true
-runs: .\copypaste.ps1  
+runs: 
+  using: "composite"
   args: 
     - ${{inputs.source}}
     - ${{inputs.target}}
+  steps:
+    - run: ${{ github.action_path }}/copypaste.ps1
