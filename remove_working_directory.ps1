@@ -1,0 +1,1 @@
+Remove-Item -Path $1 -Force -Recurse
