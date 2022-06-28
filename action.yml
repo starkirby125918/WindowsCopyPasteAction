@@ -8,6 +8,6 @@ inputs:
     description: 'Target path'
     required: true
 runs: .\copypaste.ps1  
-    args: 
-      - ${{inputs.source}}
-      - ${{inputs.target}}
+  args: 
+    - ${{inputs.source}}
+    - ${{inputs.target}}
